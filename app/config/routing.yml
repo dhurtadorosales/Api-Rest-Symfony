@@ -1,0 +1,13 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+
+api_app:
+    resource: "@AppBundle/Controller/ApiController.php"
+    type: rest
+    prefix: app/api/
+
+api_diary:
+    resource: "@AppBundle/Controller/DiaryController.php"
+    type: rest
+    prefix: app/diary/
